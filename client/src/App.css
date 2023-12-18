@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  padding: 10px;
+}
+
+.inputBox {
+  margin-bottom: 6px;
+}
+
+input,
+button {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+input {
+  border: 1px solid rgba(0, 0, 0, .1);
+  background-color: rgba(0, 0, 0, .02);
+}
+button {
+  border: 1px solid rgba(0, 0, 0, .1);
+  margin-left: 5px;
+}
+
+.messages {
+  max-width: 400px;
+}
+
+.messageBox {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.ME,
+.FRIEND {
+  font-weight: bold;
+}
+
+.ME {
+  color: white;
+  background-color: rgb(54, 54, 54);
+  position: relative;
+  left: 20%;
+}
+.FRIEND {
+  background-color: rgb(212, 212, 212);
+}
+
+.JOIN,
+.LEAVE {
+  text-align: center;
+  width: 100%;
+  text-decoration: underline;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: 5px;
+  scale: .9;
+}
+
+.JOIN {
+  background-color: rgb(5, 51, 5);
+  color: rgb(161, 233, 161);
+}
+.LEAVE {
+  background-color: rgb(63, 14, 14);
+  color: rgb(233, 161, 161);
+}
